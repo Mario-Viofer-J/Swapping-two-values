@@ -23,10 +23,13 @@ End the program
 #Register Number:212223100032
 a=input()
 b=input()
-print("Swapped values are:",b,a);
+c=a;
+a=b;
+b=c;
+print("Swapped values are:",a,b);
 ~~~
 ## OUTPUT:
-![image](https://github.com/Mario-Viofer-J/Swapping-two-values/assets/144979232/720f7f3f-ffcf-4cd4-9eb1-b03065afd27d)
+![image](https://github.com/Mario-Viofer-J/Swapping-two-values/assets/144979232/9fc166ec-2141-4423-8649-d1f1f2b0f3ad)
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
